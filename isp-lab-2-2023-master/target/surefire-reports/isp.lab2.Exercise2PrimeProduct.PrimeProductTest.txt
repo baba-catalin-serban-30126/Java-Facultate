@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: isp.lab2.Exercise2PrimeProduct.PrimeProductTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec <<< FAILURE! - in isp.lab2.Exercise2PrimeProduct.PrimeProductTest
+testPrimeProduct(isp.lab2.Exercise2PrimeProduct.PrimeProductTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<46189> but was:<7921>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at isp.lab2.Exercise2PrimeProduct.PrimeProductTest.testPrimeProduct(PrimeProductTest.java:15)
+
